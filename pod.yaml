@@ -1,10 +1,10 @@
-apiVersion: v1
+apiVersion: v2
 kind: Pod
 metadata:
   name: todo-app
 spec:
   containers:
   - name: todo-app
-    image: hackerboypk/todoapp:v1
+    image: hackerboypk/todoapp:v2
     ports:
     - containerPort: 8000
