@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: todo-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: hackerboypk/todo-app:v1
+        image: hackerboypk/todo-app:v2
         ports:
         - containerPort: 8000
